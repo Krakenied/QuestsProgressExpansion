@@ -88,9 +88,9 @@ public final class QuestsProgressExpansion extends PlaceholderExpansion implemen
 
         Object progress = taskProgress.getProgress();
         if (progress == null) {
-            if (!questProgress.isStarted()) {
-                return this.log(player, params, "progress is null");
-            }
+//            if (!questProgress.isStarted()) {
+//                return this.log(player, params, "progress is null");
+//            }
             progress = 0;
         }
 
